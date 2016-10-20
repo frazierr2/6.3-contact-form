@@ -10,7 +10,7 @@ var ContactInstructionsView = Backbone.View.extend({
   tagName: 'p',
   attributes: {
     id: 'instructions',
-    'class': 'contact-instructions well col-md-6 text-center'
+    'class': 'contact-instructions well text-center'
   },
   render: function() {
     // console.log(this.$el);
